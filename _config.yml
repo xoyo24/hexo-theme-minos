@@ -29,7 +29,7 @@ menu:
   # Lifestyle: /categories/LifeStyle
   # Music: /categories/Music
   # Technology: /categories/Technology
-  About: /about
+  # About: /about
 
 # Search plugin settings.
 search:

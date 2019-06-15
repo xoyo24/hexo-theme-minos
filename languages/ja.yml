@@ -1,0 +1,28 @@
+name: '日本語'
+common:
+  archives: '記事'
+  category: 'カテゴリー'
+  tag: 'タグ'
+  categories: 'カテゴリー'
+  tags: 'タグ'
+nav:
+  next: '次へ'
+  prev: '前へ'
+  search: '検索'
+  toc: '見出し'
+article:
+  read_more: '続きを読む'
+  read: '読み'
+  about: '約'
+  words: '文字'
+  comments: 'コメント'
+  contents: '見出し'
+search:
+  hint: '検索'
+insight:
+  hint: '検索'
+  posts: '記事'
+  pages: 'ページ'
+  categories: 'カテゴリー'
+  tags: 'タグ'
+  untitled: '(無題)'

@@ -40,7 +40,8 @@ if (languages.length > 1) {
 <link rel="icon" href="<%- get_config('favicon') %>">
 <% } %>
 
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Sans+SC&display=swap&subset=chinese-simplified,japanese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
 
 <% if (!(has_config('plugins.gallery') && get_config('plugins.gallery') === false)) { %>
@@ -48,7 +49,7 @@ if (languages.length > 1) {
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
 <% } %>
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/<%= get_config('article.highlight', 'atom-one-light') %>.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/<%= get_config('article.highlight', 'atom-one-dark') %>.min.css">
 
 <%- css('css/style') %>
 
